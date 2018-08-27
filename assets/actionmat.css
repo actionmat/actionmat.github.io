@@ -1,0 +1,119 @@
+body {
+  width: 100%;
+  font-family: Arial,Helvetica,sans-serif;
+  margin: 0 0;
+  background-color: #eeeeee;
+}
+
+a:link, a:visited {
+  color: inherit;
+}
+
+  a:hover {
+    color: rgb(102, 153, 204);
+  }
+
+h2 {
+  font-family: Palatino;
+}
+
+.content {
+  margin: 0 auto;
+  width: 1000px;
+  font-family: Verdana,sans-serif;
+}
+
+  .content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#header {
+  padding: 20px 0;
+  background-color: rgb(102, 153, 204);
+}
+
+  .logo {
+    width: 45%;
+    padding-left: 5%;
+    float: left;
+    font-family: Verdana;
+    font-size: 38px;
+  }
+
+  .call_to_action {
+    width: 40%;
+    float: left;
+    line-height: 48px;
+    text-align: right;
+    padding: 0 5%;
+  }
+
+    .call_to_action a:hover {
+      color: #dedede;
+    }
+
+#banner {
+  padding: 20px 0 0 0;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+  
+#services {
+  background-color: #eeeeee;
+  padding: 20px 0;
+}
+
+  #message {
+    float: left;
+    width: 390px;
+    padding-left: 20px;
+  }
+
+  #products {
+    float: left;
+    width: 220px;
+    padding-left: 50px;
+  }
+
+    #products ul {
+      padding: 0;
+      line-height: 1.5;
+    }
+
+      #products ul li {
+        list-style-type: none;
+      }
+
+  #map { 
+    width: 300px;
+    float: left; 
+    text-align: right;
+  }
+
+#footer {
+  background-color: #cdcdcd;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+  #address {
+    width: 300px;
+    float: left;
+    padding-right: 50px;
+  }
+
+  #phone_number {
+    width: 300px;
+    float: left;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  #email {
+    width: 300px;
+    float: left;
+    text-align: right;
+  }
